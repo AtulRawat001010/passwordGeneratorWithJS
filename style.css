@@ -1,0 +1,46 @@
+:root{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 500;
+    background-image: linear-gradient(to top right, rgb(73, 18, 98),black);
+    color: white;
+    .heading{
+        font-weight: 300;
+        font-size:larger
+    }
+}
+
+.wrapper{
+    width: 75vw;
+    height: 75vh;
+    /* text-align: center; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+    margin-top: 170px;
+}
+
+/* to make text non selecatable*/
+.prevent-select{
+    user-select:none;
+  }
+
+.card1{
+    width: 20vw;
+    height: 10vh;
+    position: absolute;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.card2{
+    width: 20vw;
+    height: 10vh;
+    position: absolute;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
