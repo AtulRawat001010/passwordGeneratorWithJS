@@ -16,16 +16,56 @@
 
         <!-- card1 -->
         <div class="card1">
-            <p class="card1Para prevent-select">Password</p>
-            <button class="copyBtn">
-                <img src="#" alt="copyBtn">copy
-            </button>
+            <input onclick="rmvBrdr()" readonly placeholder="Password" class="card1Input">
+            <div onclick="copied()" class="copyBtn">
+                <img class="copyImg" src="./images/copy.svg" alt="copyBtn">
+            </div>
         </div>
 
         <!-- card2 -->
         <div class="card2">
-            <p class="card2Para">Password Length</p>
-            <p class="passwordLen"></p>
+            <div class="lengthData">
+                <p class="card2Para">Password Length</p>
+                <p class="passwordLen"></p>
+            </div>
+
+            <div class="slider">
+                <input type="range" min="1" max="20" class="inputSlider" step="1">
+            </div>
+
+            <div class="checkboxes">
+                <div class="includeUppercase">
+                    <input type="checkbox" id="uppercase">
+                    <label for="uppercase">Include Uppercase</label>
+                </div>
+
+                <div class="includelowercase">    
+                    <input type="checkbox" id="lowercase">
+                    <label for="lowercase">Include Lowercase</label>
+                </div>
+
+                <div class="includeNumber">
+                    <input type="checkbox" id="numbers">
+                    <label for="numbers">Include Numbers</label>
+                </div>
+
+                <div class="includeSymbol">
+                    <input type="checkbox" id="symbol">
+                    <label for="symbol">Include Symbol</label>
+                </div>
+            </div>
+
+            <div class="strength">
+                <div class="strengthText">Strength</div>
+                <div class="strengthColor"></div>
+            </div>
+
+            <div class="generatePswd">
+                <button class="generateBtn">
+                    Generate Password
+                </button>
+            </div>
+
         </div>
 
         <script src="index.js"></script>
