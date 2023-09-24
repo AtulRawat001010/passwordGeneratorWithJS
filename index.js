@@ -133,7 +133,7 @@ function handleCheckboxChange() {
     if(passwordLength < checkboxCount){
         passwordLength = checkboxCount;
         handleSlider();
-    };
+    }
 }
 
 
@@ -150,7 +150,7 @@ function shufflePassword(array) {
     let str = "";
     array.forEach((el) => (str += el));
     return str;
-}
+};
 
 allCheckBox.forEach(checkbox => {
     checkbox.addEventListener("change", handleCheckboxChange)
