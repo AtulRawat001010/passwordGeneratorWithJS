@@ -213,4 +213,4 @@ generateBtn.addEventListener("click", ()=>{
     password = shufflePassword(Array.from(password));
     card1Input.value = password;
     getStrength();
-})
+});
