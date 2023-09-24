@@ -118,7 +118,7 @@ copyBtn.addEventListener("click", ()=>{
     if(card1Input.value){
         copyPswd();
     }
-})
+});
 
 
 // // //handleCheckboxCount==>
@@ -134,7 +134,7 @@ function handleCheckboxChange() {
         passwordLength = checkboxCount;
         handleSlider();
     }
-}
+};
 
 
 function shufflePassword(array) {
