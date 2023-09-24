@@ -168,6 +168,11 @@ generateBtn.addEventListener("click", ()=>{
         handleSlider();
     }
 
+    if(passwordLength < 4){
+        passwordLength = 4;
+        handleSlider();
+    }
+
     // //password Generate
     password ="";
     
