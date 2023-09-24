@@ -105,13 +105,13 @@ async function copyPswd() {
         console.log("Copied");
         copyMsg.classList.remove("copyMsgDivActive");
     }, 2000)
-}
+};
 
 
 inputSlider.addEventListener('input', (e)=> {
     passwordLength = e.target.value;
     handleSlider();
-})
+});
 
 
 copyBtn.addEventListener("click", ()=>{
