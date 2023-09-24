@@ -109,10 +109,16 @@
 
 .slider{
     margin-left: 5px;
+    width: 100%;
+}
+
+.slider input{
+    width: 95%;
 }
 
 .slider input:hover{
     cursor: pointer;
+    width: 100%;
 }
 
 .checkboxes{
