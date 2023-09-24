@@ -133,7 +133,7 @@ function handleCheckboxChange() {
     if(passwordLength < checkboxCount){
         passwordLength = checkboxCount;
         handleSlider();
-    }
+    };
 }
 
 
