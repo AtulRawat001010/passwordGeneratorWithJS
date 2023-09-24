@@ -14,10 +14,15 @@
             <h1 class="heading">PASSWORD GENERATOR</h1>
         </div>
 
+        <!-- copyMsg -->
+        <div class="copyMsgDiv">
+            <p class="copyMsg">Copied</p>
+        </div>
+
         <!-- card1 -->
         <div class="card1">
-            <input onclick="rmvBrdr()" readonly placeholder="Password" class="card1Input">
-            <div onclick="copied()" class="copyBtn">
+            <input readonly placeholder="Password" class="card1Input">
+            <div class="copyBtn">
                 <img class="copyImg" src="./images/copy.svg" alt="copyBtn">
             </div>
         </div>
@@ -30,7 +35,7 @@
             </div>
 
             <div class="slider">
-                <input type="range" min="1" max="20" class="inputSlider" step="1">
+                <input name="inputSlider" type="range" min="1" max="20" class="inputSlider" step="1">
             </div>
 
             <div class="checkboxes">

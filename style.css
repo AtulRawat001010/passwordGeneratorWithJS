@@ -6,10 +6,6 @@
     font-weight: 500;
     background-image: linear-gradient(to top right, rgb(73, 18, 98),black);
     color: white;
-    .heading{
-        font-weight: 300;
-        font-size:larger
-    }
 }
 
 /* top div(wrapper) */
@@ -24,9 +20,25 @@
     margin-top: 120px;
 }
 
+.header{
+    font-size:13px;
+    position: relative;
+}
+
 /* to make text non selecatable*/
 .prevent-select{
     user-select:none;
+}
+
+.copyMsgDiv{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 400px;
+    scale: 0;
+}
+
+.copyMsgDivActive{
+    scale: 1;
 }
 
 /* paswd Length Card */
@@ -67,7 +79,7 @@
     border: transparent;
 }
 .card1Input::placeholder{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 
